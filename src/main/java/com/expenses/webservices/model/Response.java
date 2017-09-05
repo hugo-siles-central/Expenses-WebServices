@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.*;
 import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
+
 @XmlRootElement(name = "response")
 @JsonRootName("response")
 @JsonTypeName("response")
